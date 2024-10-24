@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="8.0.10" />
+    <PackageReference Include="Scalar.AspNetCore" Version="1.2.15" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Formula1.Application\Formula1.Application.csproj" />
+    <ProjectReference Include="..\Formula1.Contracts\Formula1.Contracts.csproj" />
+    <ProjectReference Include="..\Formula1.Domain\Formula1.Domain.csproj" />
+    <ProjectReference Include="..\Formula1.Infrastructure\Formula1.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,87 @@
+@Formula1.Api_HostAddress = https://localhost:7277
+
+### Circuits
+
+GET {{Formula1.Api_HostAddress}}/api/circuits
+Accept: application/json
+
+### Circuit
+
+GET {{Formula1.Api_HostAddress}}/api/circuits/59efb2a4-be7a-46c0-9e70-551d5e5beb92
+Accept: application/json
+
+### Constructors
+
+GET {{Formula1.Api_HostAddress}}/api/constructors
+Accept: application/json
+
+### Constructor
+
+GET {{Formula1.Api_HostAddress}}/api/constructors/3f85c446-6b80-493c-8dd9-51b918ad3beb
+Accept: application/json
+
+### Drivers
+
+GET {{Formula1.Api_HostAddress}}/api/drivers
+
+### Driver
+
+GET {{Formula1.Api_HostAddress}}/api/drivers/761f2a01-7007-49d1-84d6-3c5459a2fa89
+Accept: application/json
+
+### GrandPrix List
+
+GET {{Formula1.Api_HostAddress}}/api/grandprix
+Accept: application/json
+
+### GrandPrix
+
+GET {{Formula1.Api_HostAddress}}/api/grandprix/dd9e4a1b-4b6d-45bb-bcc4-e2014a977db7
+Accept: application/json
+
+### Races
+
+GET {{Formula1.Api_HostAddress}}/api/races
+Accept: application/json
+
+### Race
+
+GET {{Formula1.Api_HostAddress}}/api/races/c0d82c1b-849c-4f75-b14f-c70f57df9f82
+Accept: application/json
+
+### Results
+
+GET {{Formula1.Api_HostAddress}}/api/results
+Accept: application/json
+
+### Result
+
+GET {{Formula1.Api_HostAddress}}/api/results/c0d82c1b-849c-4f75-b14f-c70f57df9f82
+Accept: application/json
+
+### Seasons
+
+GET {{Formula1.Api_HostAddress}}/api/seasons
+Accept: application/json
+
+### Season
+
+GET {{Formula1.Api_HostAddress}}/api/seasons/2023
+Accept: application/json
+
+### Sessions
+
+GET {{Formula1.Api_HostAddress}}/api/sessions
+Accept: application/json
+
+### Session
+
+GET {{Formula1.Api_HostAddress}}/api/sessions/52856ab0-d03b-40f6-a44b-4525bee6398b
+Accept: application/json
+
+### SessionTypes
+
+GET {{Formula1.Api_HostAddress}}/api/sessiontypes
+Accept: application/json
+
+###
